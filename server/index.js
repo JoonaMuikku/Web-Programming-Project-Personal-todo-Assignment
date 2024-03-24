@@ -17,7 +17,7 @@ const openDb = () => {
     })
     return pool
 }
-app.get("/pg",(req,res) => {
+app.get("/",(req,res) => {
     const pool = openDb()
 
     pool.query('SELECT * FROM task', (error, result) => {
