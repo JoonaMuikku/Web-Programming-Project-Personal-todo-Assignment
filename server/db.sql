@@ -1,8 +1,8 @@
-drop database if exists TODO;
+drop database if exists todo;
 
-create database TODO;
+create database todo;
 
-use TODO;
+use todo;
 
 create table task (
     id int primary key auto_increment,
